@@ -6,17 +6,14 @@
     <title>Menu </title>
   </head>
   <body>
-    <link rel="stylesheet" href="bar.css">
-
-    <ul class="navbar-nav">
-        <li><a class="nav-link" href="homePage.html">Home</a></li>
-        <li><a class="nav-link" href="menu.html">menu</a></li>
-        <li><a class="nav-link" href="about.html">about</a></li>
-        <li><a class="nav-link active" href="order.html">order</a></li>
-        <li><a class="nav-link" href="contact.html">Contact us</a></li>
+    <ul class="navbar">
+        <li class="side"><a class="nav-link" href="homePage.html">Home</a></li>
+        <li class="side"><a class="nav-link" href="menu.html">menu</a></li>
+        <li class="side"><a class="nav-link" href="about.html">about</a></li>
+        <li class="side"><a class="nav-link active" href="order.html">order</a></li>
+        <li class="side"><a class="nav-link" href="contact.html">Contact us</a></li>
     </ul>
     <h1>להזמנות</h1>
-
     <form action="http://mailthis.to/testhadarh@gmail.com" method="post">
         <p>סוג בשר</p>
         <input type="radio" id="beff" name="meatType" value="beff">
@@ -33,18 +30,19 @@
         <input type="radio" id="250" name="weighr" value="250">
         <label for="vehicle6"> 250</label><br><br>
         <p>גרם</p>
-        <input type="checkbox" id="vehicle7" name="vehicle7" value="lettuce">
-        <label for="vehicle7"> חסה</label><br>
-        <input type="checkbox" id="vehicle8" name="vehicle8" value="tomato">
-        <label for="vehicle8">עגבניה</label><br>
-        <input type="checkbox" id="vehicle9" name="vehicle9" value="pickles">
-        <label for="vehicle9">חמוצים</label><br><br>
-        <input type="checkbox" id="vehicle10" name="vehicle10" value="pineapple">
-        <label for="vehicle10">אננס</label><br>
-        <input type="checkbox" id="vehicle11" name="vehicle11" value="agg">
-        <label for="vehicle11"> ביצה</label><br><br>
+        <input type="checkbox" id="lettuce" name="lettuce" value="lettuce">
+        <label for="lettuce"> חסה</label><br>
+        <input type="checkbox" id="tomato" name="tomato" value="tomato">
+        <label for="tomato">עגבניה</label><br>
+        <input type="checkbox" id="pickles" name="pickles" value="pickles">
+        <label for="pickles">חמוצים</label><br><br>
+        <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+        <label for="pineapple">אננס</label><br>
+        <input type="checkbox" id="agg" name="agg" value="agg">
+        <label for="agg">ביצת עין</label><br><br>
         <input type="submit" value="Send Emil">
       </form>
     <img src="burger.jpg" alt="Picture of burger">
+
     </body>
 </html>
