@@ -1,12 +1,3 @@
-.abouticon{
-    font-size:150px;
-    line-height:0.6em;
-    opacity:0.2;
-}
-.aboutText{
-    direction: rtl;
-    margin-top:-40px;
-}
 * {
     box-sizing: border-box;
   }

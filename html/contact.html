@@ -4,31 +4,43 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/sideBysidePic.css">
+  <link rel="stylesheet" href="/css/contact.css">
   <title>Menu </title>
 </head>
 
 <body>
   <ul class="navbar">
-    <li class="side"><a class="nav-link" href="homePage.html">Home</a></li>
+    <li class="side"><a class="nav-link" href="index.html">Home</a></li>
     <li class="side"><a class="nav-link" href="menu.html">menu</a></li>
     <li class="side"><a class="nav-link" href="about.html">about</a></li>
     <li class="side"><a class="nav-link" href="order.html">order</a></li>
     <li class="side"><a class="nav-link active" href="contact.html">Contact us</a></li>
   </ul>
   <h1>יצירת קשר</h1>
-  <p>נשמח לעמוד לשרותך</p>
-  <form action="http://mailthis.to/testhadarh@gmail.com" method="post" enctype="text/plain">
+  <p class="title">נשמח לעמוד לשרותך</p>
+  <form class="ditels" action="http://mailthis.to/testhadarh@gmail.com" method="post" enctype="text/plain">
     Name:<br>
     <input type="text" name="name"><br>
     Email:<br>
-    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+    <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></br>
     Comment:<br>
     <input type="text" name="comment" size="4"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
+    <input class="button" type="submit" value="Send">
+    <input class="button" type="reset" value="Reset">
   </form>
 
-  <img src="/resources/burger.jpg" alt="Picture of burger">
+  <div class="row">
+    <div class="column">
+      <img class="img" src="/resources/pic1.png" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="img" src="/resources/pic2.png" alt="Forest">
+    </div>
+    <div class="column">
+      <img class="img" src="/resources/pic3.png" alt="Mountains">
+    </div>
+  </div>
 </body>
 
 </html>

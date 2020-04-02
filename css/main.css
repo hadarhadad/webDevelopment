@@ -3,18 +3,21 @@
   }
   
 h1 {
-    background-color:palegoldenrod;
+    direction: rtl;
     color: saddlebrown;
   }
 body{
   background-color:lavenderblush;
+}
+.burgerPic{
+  float: left;
 }
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(218, 198, 145);
 }
 .side{
   float: left;
@@ -27,8 +30,8 @@ body{
   text-decoration: none;
 }
 .nev-link:hover {
-  background-color: #111;
+  background-color: palegoldenrod;
 }
 .active {
-  background-color: #4CAF50;
+  background-color: saddlebrown;
 }
